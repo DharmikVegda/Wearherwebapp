@@ -81,7 +81,7 @@
 
     {{!-- footer code --}}
     <footer>
-      <p>Created by harshil lathiya</p>
+      <p>Created by Harshil Lathiya</p>
     </footer>
 </body>
     <script src="js/main.js"></script>
@@ -101,5 +101,30 @@
       day.innerText = days;
    };
    getCurrentDay();
+
+
+   const getCurrentTime = () => {
+    var months = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "June",
+        "July",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+    ];
+    var now = new Date();
+    var month = months[ now.getMonth()]; 
+    var day = now.getDate(); 
+    const todayDate = document.getElementById('today_date');
+    {{!-- console.log(month + "/" + day); --}}
+      todayDate.innerText = day +" "+ month;
+    };
+     getCurrentTime();
     </script>
 </html>
