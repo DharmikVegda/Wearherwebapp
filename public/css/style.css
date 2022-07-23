@@ -201,6 +201,22 @@ sup{
 #temp_status{
     font-size: 30px; 
 }
+#speed{
+    font-size: 20px; 
+    color: #c3e6f4;
+}
+#ihumidity{
+    font-size: 20px; 
+    color: #c3e6f4;
+}
+#ispeed{
+    font-size: 20px; 
+    color: #c3e6f4;
+}
+#humidity{
+    font-size: 20px; 
+    color: #c3e6f4;
+}
 
 /* footer code */
 footer{
